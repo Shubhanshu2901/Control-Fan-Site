@@ -1,0 +1,215 @@
+/* title */
+#title
+{
+  background-color: #000000;
+  color: white;
+  padding-bottom: 5%
+}
+.title-image
+{
+  height: 120%;
+  width : 70%;
+  transform: rotate(20deg);
+  padding: 0;
+  position: absolute;
+  border-radius: 7%
+
+}
+@media (max-width: 1024px)
+{
+  .title-image
+  {
+    width : 75%;
+    transform: rotate(0deg);
+    padding: 3% 5%;
+    position: static;
+
+  }
+  #title
+  {
+    text-align:center;
+  }
+}
+/* body and headings */
+h1
+{
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  font-weight: bolder;
+  line-height: 2;
+}
+body{
+  font-family: "Montserrat";
+}
+h2{
+  font-family: "Montserrat";
+  font-size : 3rem;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+h3{
+  font-family: "Montserrat";
+  font-weight: bolder;
+  font-size: 1.5rem;
+
+}
+.container-fluid
+{
+  padding : 2% 12%;
+}
+
+
+/* navigation bar */
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  color: white;
+  font-size: 2rem;
+}
+.navbar{
+  padding: 0 0 5rem 0;
+
+}
+.navbar-item{
+  padding : 0 1rem;
+}
+
+.nav-link
+{
+  font-size: 1.2rem;
+}
+/* buttons */
+
+.download-buttons{
+  margin: 5% 3% 5% 0;
+}
+
+.btn-danger-1{
+  background-color: #FF2626;
+}
+/* features */
+#features{
+  background-color: #FF2626;
+  position: relative;
+  z-index : 1;
+  color: white;
+  padding: 5%;
+}
+.row-feat{
+  text-align: center;
+  padding: 7% 15%
+}
+.feat-icons{
+  font-size: 5rem;
+  color: white;
+  padding: 5% 0;
+}
+.feat-details{
+  color: white;
+  width : 50%;
+  margin-left: 25%;
+}
+/* testimonials */
+#testimonials{
+  padding: 6% 15%;
+  text-align: center;
+  background-color: #000000;
+  color: white;
+}
+.testimonial-img{
+  width: 15%;
+  border-radius: 100%;
+  margin: 30px;
+}
+/* press */
+#press{
+  background-color: #000000;
+  padding: 0 5% 7% 5%;
+  text-align: center;
+}
+.press-img{
+  width : 20%;
+  padding: 0 3% 0 3%;
+}
+
+.carousel-item{
+  padding : 0% 10%;
+}
+/* Pricing */
+.btn-dark-1
+{
+  background-color: #FF2626;
+}
+.btn-outline-danger
+{
+  color:  #FF2626;
+}
+#pricing
+{
+  padding: 100px;
+  text-align:center;
+  background-color: #FF2626;
+  color:white;
+}
+.pricing-card
+{
+  padding: 3% 4%;
+  background-color:
+}
+.card
+{
+  border : 2px solid white;
+  color : white;
+}
+.card-header
+{
+  color : white;
+
+}
+
+.card-foundation
+{
+  background-image: url("Found (2).jpg");
+  background-size: contain;
+}
+
+.card-AWE
+{
+  background-image: url("AWE (2).jpg");
+  background-size: contain;
+}
+
+.card-Ult
+{
+  background-image: url("Rotating Image.jpg");
+  background-size: contain;
+}
+/* call-to-action */
+#cta{
+  text-align:center;
+  background-color:  #000000;
+}
+.cta-title{
+  color: white;
+  font-weight: bolder;
+  padding: 7% 20% 2%;
+
+}
+.cta-download-btn{
+  margin: 0 1% 5% 1%;
+}
+/* footer */
+#footer{
+  background-color: #FF2626;
+  text-align:center;
+  padding: 2% 0 2%;
+  font-size: 1.2rem;
+}
+.footer-copyright{
+  color: white;
+}
+.footer-icon
+{
+  padding: 0 0.5% 1% 0.5%;
+  color: white;
+}
